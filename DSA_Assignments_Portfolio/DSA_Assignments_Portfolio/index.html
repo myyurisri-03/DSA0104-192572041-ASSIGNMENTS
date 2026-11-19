@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA0104 - Assignment Repository</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; padding: 48px 20px;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #f4f7ff, #eef2fb);
+      color: #202943;
+    }
+    .container { max-width: 980px; margin: auto; }
+    header { text-align: center; margin-bottom: 38px; }
+    .eyebrow {
+      display: inline-block; padding: 7px 13px; border-radius: 20px;
+      background: #e3eaff; color: #425bb5; font-size: 12px;
+      font-weight: 700; letter-spacing: 1px;
+    }
+    h1 { margin: 16px 0 8px; font-size: clamp(26px, 5vw, 38px); }
+    header p { margin: 0; color: #69738b; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .folder {
+      display: block; text-decoration: none; color: inherit;
+      background: rgba(255,255,255,.92); border: 1px solid #e1e7f3;
+      border-radius: 18px; padding: 25px 22px; min-height: 170px;
+      box-shadow: 0 8px 24px rgba(39,57,100,.06);
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    .folder:hover {
+      transform: translateY(-5px); border-color: #9aadef;
+      box-shadow: 0 14px 30px rgba(39,57,100,.12);
+    }
+    .folder-icon { font-size: 38px; margin-bottom: 15px; }
+    .folder-name { font-size: 18px; font-weight: 700; }
+    .folder-sub { margin-top: 8px; font-size: 13px; color: #77819a; }
+    footer { text-align: center; color: #8992a7; font-size: 12px; margin-top: 34px; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="eyebrow">DSA0104 · 192572041</span>
+      <h1>DSA Assignment Repositories</h1>
+      <p>Choose an assignment folder to open its GitHub repository.</p>
+    </header>
+    <section class="grid" aria-label="Assignment folders">
+      <a class="folder" href="https://github.com/myyurisri-03/DSA0104-192572041-ASSIGNMENT1" target="_blank" rel="noopener noreferrer">
+        <div class="folder-icon">📁</div>
+        <div class="folder-name">ASSIGNMENT 1</div>
+        <div class="folder-sub">Click to open GitHub repository ↗</div>
+      </a>
+      <a class="folder" href="https://github.com/myyurisri-03/DSA0104-192572041-ASSIGNMENT-2" target="_blank" rel="noopener noreferrer">
+        <div class="folder-icon">📁</div>
+        <div class="folder-name">ASSIGNMENT 2</div>
+        <div class="folder-sub">Click to open GitHub repository ↗</div>
+      </a>
+      <a class="folder" href="https://github.com/myyurisri-03/DSA0104-192572041-ASSIGNMENT-3" target="_blank" rel="noopener noreferrer">
+        <div class="folder-icon">📁</div>
+        <div class="folder-name">ASSIGNMENT 3</div>
+        <div class="folder-sub">Click to open GitHub repository ↗</div>
+      </a>
+      <a class="folder" href="https://github.com/myyurisri-03/DSA0104-192572041-ASSIGNMENT-4" target="_blank" rel="noopener noreferrer">
+        <div class="folder-icon">📁</div>
+        <div class="folder-name">ASSIGNMENT 4</div>
+        <div class="folder-sub">Click to open GitHub repository ↗</div>
+      </a>
+      <a class="folder" href="https://github.com/myyurisri-03/DSA0104-192572041-ASSIGNMENT-5" target="_blank" rel="noopener noreferrer">
+        <div class="folder-icon">📁</div>
+        <div class="folder-name">ASSIGNMENT 5</div>
+        <div class="folder-sub">Click to open GitHub repository ↗</div>
+      </a>
+    </section>
+    <footer>Myyuri Sri V · DSA0104</footer>
+  </main>
+</body>
+</html>
